@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* redditpaperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D443277D12E116F200F8CA7F /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = D443277C12E116F200F8CA7F /* spinner.gif */; };
+		D44B823E12D2D5C10092CE67 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B512D2D5C00092CE67 /* NSObject+SBJSON.m */; };
+		D44B823F12D2D5C10092CE67 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B712D2D5C00092CE67 /* NSString+SBJSON.m */; };
+		D44B824012D2D5C10092CE67 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B912D2D5C00092CE67 /* SBJsonBase.m */; };
+		D44B824112D2D5C10092CE67 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81BB12D2D5C00092CE67 /* SBJsonParser.m */; };
+		D44B824212D2D5C10092CE67 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81BD12D2D5C00092CE67 /* SBJsonWriter.m */; };
+		D44B82C712D2DB2D0092CE67 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B82C612D2DB2D0092CE67 /* DataManager.m */; };
+		D44EB4C512D826A600E3A4EB /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D44EB4C412D826A600E3A4EB /* notes.txt */; };
+		D44EB54912DAB05100E3A4EB /* sbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = D44EB54812DAB05100E3A4EB /* sbicon.png */; };
+		D44EB58D12DBBA9C00E3A4EB /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = D44EB58C12DBBA9C00E3A4EB /* Preferences.m */; };
+		D44EB59112DBBBA900E3A4EB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44EB59012DBBBA900E3A4EB /* Preferences.xib */; };
+		D452947F12D52B3A00B9F7B9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D452947E12D52B3A00B9F7B9 /* Reachability.m */; };
+		D452949112D52BB900B9F7B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452949012D52BB900B9F7B9 /* SystemConfiguration.framework */; };
+		D48EE703130F06A0004D5A4D /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EE702130F06A0004D5A4D /* ImageLoader.m */; };
+		D49C7ABC130E3B93000ADA72 /* load_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7AB8130E3B93000ADA72 /* load_0.png */; };
+		D49C7ABD130E3B93000ADA72 /* load_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7AB9130E3B93000ADA72 /* load_1.png */; };
+		D49C7ABE130E3B93000ADA72 /* load_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7ABA130E3B93000ADA72 /* load_2.png */; };
+		D49C7ABF130E3B93000ADA72 /* load_3.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7ABB130E3B93000ADA72 /* load_3.png */; };
+		D4B4E9AF12D6794500A7D93A /* WallpaperController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B4E9AE12D6794500A7D93A /* WallpaperController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* redditpaperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redditpaperAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = redditpaperAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* redditpaper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redditpaper_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* redditpaper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "redditpaper-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* redditpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redditpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D443277C12E116F200F8CA7F /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		D44B81B312D2D5C00092CE67 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		D44B81B412D2D5C00092CE67 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D44B81B512D2D5C00092CE67 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D44B81B612D2D5C00092CE67 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D44B81B712D2D5C00092CE67 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D44B81B812D2D5C00092CE67 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		D44B81B912D2D5C00092CE67 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		D44B81BA12D2D5C00092CE67 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		D44B81BB12D2D5C00092CE67 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		D44B81BC12D2D5C00092CE67 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		D44B81BD12D2D5C00092CE67 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		D44B82C512D2DB2D0092CE67 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D44B82C612D2DB2D0092CE67 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D44EB4C412D826A600E3A4EB /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		D44EB54812DAB05100E3A4EB /* sbicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sbicon.png; sourceTree = "<group>"; };
+		D44EB58B12DBBA9C00E3A4EB /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		D44EB58C12DBBA9C00E3A4EB /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		D44EB59012DBBBA900E3A4EB /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		D452947D12D52B3A00B9F7B9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D452947E12D52B3A00B9F7B9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D452949012D52BB900B9F7B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D48EE701130F06A0004D5A4D /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		D48EE702130F06A0004D5A4D /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		D49C7AB8130E3B93000ADA72 /* load_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_0.png; sourceTree = "<group>"; };
+		D49C7AB9130E3B93000ADA72 /* load_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_1.png; sourceTree = "<group>"; };
+		D49C7ABA130E3B93000ADA72 /* load_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_2.png; sourceTree = "<group>"; };
+		D49C7ABB130E3B93000ADA72 /* load_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_3.png; sourceTree = "<group>"; };
+		D4B4E9AD12D6794500A7D93A /* WallpaperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WallpaperController.h; sourceTree = "<group>"; };
+		D4B4E9AE12D6794500A7D93A /* WallpaperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WallpaperController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D452949112D52BB900B9F7B9 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* redditpaperAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */,
+				D44B82C512D2DB2D0092CE67 /* DataManager.h */,
+				D44B82C612D2DB2D0092CE67 /* DataManager.m */,
+				D4B4E9AD12D6794500A7D93A /* WallpaperController.h */,
+				D4B4E9AE12D6794500A7D93A /* WallpaperController.m */,
+				D44EB58B12DBBA9C00E3A4EB /* Preferences.h */,
+				D44EB58C12DBBA9C00E3A4EB /* Preferences.m */,
+				D44EB59012DBBBA900E3A4EB /* Preferences.xib */,
+				D48EE701130F06A0004D5A4D /* ImageLoader.h */,
+				D48EE702130F06A0004D5A4D /* ImageLoader.m */,
+				D4B4E9AC12D6792C00A7D93A /* Utilities */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				D452949012D52BB900B9F7B9 /* SystemConfiguration.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* redditpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* redditpaper */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = redditpaper;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* redditpaper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D49C7AC1130E3B95000ADA72 /* loading */,
+				D443277C12E116F200F8CA7F /* spinner.gif */,
+				D44EB54812DAB05100E3A4EB /* sbicon.png */,
+				D44EB4C412D826A600E3A4EB /* notes.txt */,
+				8D1107310486CEB800E47090 /* redditpaper-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D44B81AF12D2D5C00092CE67 /* JSON v2.3.1 (Mac) */ = {
+			isa = PBXGroup;
+			children = (
+				D44B81B212D2D5C00092CE67 /* Classes */,
+			);
+			path = "JSON v2.3.1 (Mac)";
+			sourceTree = "<group>";
+		};
+		D44B81B212D2D5C00092CE67 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D44B81B312D2D5C00092CE67 /* JSON.h */,
+				D44B81B412D2D5C00092CE67 /* NSObject+SBJSON.h */,
+				D44B81B512D2D5C00092CE67 /* NSObject+SBJSON.m */,
+				D44B81B612D2D5C00092CE67 /* NSString+SBJSON.h */,
+				D44B81B712D2D5C00092CE67 /* NSString+SBJSON.m */,
+				D44B81B812D2D5C00092CE67 /* SBJsonBase.h */,
+				D44B81B912D2D5C00092CE67 /* SBJsonBase.m */,
+				D44B81BA12D2D5C00092CE67 /* SBJsonParser.h */,
+				D44B81BB12D2D5C00092CE67 /* SBJsonParser.m */,
+				D44B81BC12D2D5C00092CE67 /* SBJsonWriter.h */,
+				D44B81BD12D2D5C00092CE67 /* SBJsonWriter.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D49C7AC1130E3B95000ADA72 /* loading */ = {
+			isa = PBXGroup;
+			children = (
+				D49C7AB8130E3B93000ADA72 /* load_0.png */,
+				D49C7AB9130E3B93000ADA72 /* load_1.png */,
+				D49C7ABA130E3B93000ADA72 /* load_2.png */,
+				D49C7ABB130E3B93000ADA72 /* load_3.png */,
+			);
+			name = loading;
+			sourceTree = "<group>";
+		};
+		D4B4E9AC12D6792C00A7D93A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D452947D12D52B3A00B9F7B9 /* Reachability.h */,
+				D452947E12D52B3A00B9F7B9 /* Reachability.m */,
+				D44B81AF12D2D5C00092CE67 /* JSON v2.3.1 (Mac) */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* redditpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "redditpaper" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redditpaper;
+			productInstallPath = "$(HOME)/Applications";
+			productName = redditpaper;
+			productReference = 8D1107320486CEB800E47090 /* redditpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "redditpaper" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* redditpaper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* redditpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				D44EB4C512D826A600E3A4EB /* notes.txt in Resources */,
+				D44EB54912DAB05100E3A4EB /* sbicon.png in Resources */,
+				D44EB59112DBBBA900E3A4EB /* Preferences.xib in Resources */,
+				D443277D12E116F200F8CA7F /* spinner.gif in Resources */,
+				D49C7ABC130E3B93000ADA72 /* load_0.png in Resources */,
+				D49C7ABD130E3B93000ADA72 /* load_1.png in Resources */,
+				D49C7ABE130E3B93000ADA72 /* load_2.png in Resources */,
+				D49C7ABF130E3B93000ADA72 /* load_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* redditpaperAppDelegate.m in Sources */,
+				D44B823E12D2D5C10092CE67 /* NSObject+SBJSON.m in Sources */,
+				D44B823F12D2D5C10092CE67 /* NSString+SBJSON.m in Sources */,
+				D44B824012D2D5C10092CE67 /* SBJsonBase.m in Sources */,
+				D44B824112D2D5C10092CE67 /* SBJsonParser.m in Sources */,
+				D44B824212D2D5C10092CE67 /* SBJsonWriter.m in Sources */,
+				D44B82C712D2DB2D0092CE67 /* DataManager.m in Sources */,
+				D452947F12D52B3A00B9F7B9 /* Reachability.m in Sources */,
+				D4B4E9AF12D6794500A7D93A /* WallpaperController.m in Sources */,
+				D44EB58D12DBBA9C00E3A4EB /* Preferences.m in Sources */,
+				D48EE703130F06A0004D5A4D /* ImageLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = redditpaper_Prefix.pch;
+				INFOPLIST_FILE = "redditpaper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = redditpaper;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = redditpaper_Prefix.pch;
+				INFOPLIST_FILE = "redditpaper-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = redditpaper;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "redditpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "redditpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

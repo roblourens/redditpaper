@@ -1,0 +1,50 @@
+Internet connection management strategy
+
+* Avoid fancy caching strategies- assume that when the computer is offline, it's the user's problem.
+* Never change the wallpaper to the default blue screen
+x When the computer is offline, the previously downloaded wallpapers can be used, BUT ONLY if the computer was
+  online when the program was launched (so listings have been downloaded)
+	1. Maintain a separate list of the saved listings. Switch to it when internet connection is lost
+		* Could be saved for when app launches with no connection (not really important)
+		* Or just add a key/value to the existing set of listings
+	2. If an image can't be downloaded, move to the next one
+		* More extendable to images that timeout?
+	3. Load some images in the background
+		* Faster switching
+* Assume the app only needs to be useful online. When offline, disable next/previous buttons. If timer ends
+  while offline, update when next online
+
+
+General data
+* Maintain the current index, even when a new set of data is downloaded
+  * justification: for example, imagine if the set of listings was updated continuously. It wouldn't make
+    any sense to keep resetting the user's viewed index.
+  * This may lead to some weirdness, such as the user clicking next and getting the same image.
+
+
+File management strategy
+
+* Save files in Library when they are requested
+* When a new set of listings are loaded, delete all previously downloaded wallpapers from the Library
+
+
+Error strategy
+
+* Log all errors for debugging
+* Display an error message only when absolutely necessary
+
+
+Status bar menu strategy
+
+* Next, previous, save, etc. refer to the last wallpaper set by redditpaper during this run. If redditpaper
+  has not set a wallpaper during this run, the buttons are disabled.
+  
+  
+Premium options
+* Other subreddits
+* Global hotkeys
+
+---
+
+bugs
+With autochange on, losing network connection produces an error and blue wallpaper

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'redditpaper' target in the 'redditpaper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

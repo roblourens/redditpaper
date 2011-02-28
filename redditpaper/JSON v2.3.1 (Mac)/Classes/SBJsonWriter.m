@@ -48,8 +48,8 @@
 static NSMutableCharacterSet *kEscapeChars;
 
 + (void)initialize {
-	kEscapeChars = [[NSMutableCharacterSet characterSetWithRange: NSMakeRange(0,32)] retain];
-	[kEscapeChars addCharactersInString: @"\"\\"];
+    kEscapeChars = [[NSMutableCharacterSet characterSetWithRange: NSMakeRange(0,32)] retain];
+    [kEscapeChars addCharactersInString: @"\"\\"];
 }
 
 - (NSString*)stringWithObject:(id)value {

@@ -9,16 +9,16 @@
 	};
 	256AC3D80F4B6AC300CF3369 /* redditpaperAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 895}}";
-			sepNavSelRange = "{1637, 0}";
-			sepNavVisRange = "{0, 1644}";
+			sepNavIntBoundsRect = "{{0, 0}, {965, 960}}";
+			sepNavSelRange = "{609, 0}";
+			sepNavVisRange = "{89, 486}";
 		};
 	};
 	256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 3645}}";
-			sepNavSelRange = "{5943, 0}";
-			sepNavVisRange = "{5272, 1722}";
+			sepNavIntBoundsRect = "{{0, 0}, {933, 4080}}";
+			sepNavSelRange = "{1623, 0}";
+			sepNavVisRange = "{1101, 1207}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -29,7 +29,7 @@
 			8D1107260486CEB800E47090 /* redditpaper */,
 		);
 		breakpoints = (
-			D48EE851130F3E21004D5A4D /* DataManager.m:223 */,
+			D48EE851130F3E21004D5A4D /* DataManager.m:239 */,
 		);
 		codeSenseManager = D4F8D22012D2987600036EA3 /* Code sense */;
 		executables = (
@@ -62,47 +62,39 @@
 			PBXWorkspaceStateSaveDate = 320449448;
 		};
 		perUserProjectItems = {
-			D41620041319ABAF00813334 /* PBXTextBookmark */ = D41620041319ABAF00813334 /* PBXTextBookmark */;
-			D41620141319AC1A00813334 /* PBXTextBookmark */ = D41620141319AC1A00813334 /* PBXTextBookmark */;
-			D41620151319AC1A00813334 /* PBXTextBookmark */ = D41620151319AC1A00813334 /* PBXTextBookmark */;
-			D41620181319AC2700813334 /* PBXTextBookmark */ = D41620181319AC2700813334 /* PBXTextBookmark */;
-			D41620191319AC2A00813334 /* PBXTextBookmark */ = D41620191319AC2A00813334 /* PBXTextBookmark */;
-			D416201A1319AC2A00813334 /* PBXTextBookmark */ = D416201A1319AC2A00813334 /* PBXTextBookmark */;
-			D416201B1319AC2A00813334 /* PBXTextBookmark */ = D416201B1319AC2A00813334 /* PBXTextBookmark */;
-			D44326EF12E0EA5000F8CA7F = D44326EF12E0EA5000F8CA7F /* PBXTextBookmark */;
-			D443270012E0EB4C00F8CA7F = D443270012E0EB4C00F8CA7F /* PBXTextBookmark */;
-			D44B82C912D2DB3C0092CE67 = D44B82C912D2DB3C0092CE67 /* PBXTextBookmark */;
-			D44B82CF12D2DB3C0092CE67 = D44B82CF12D2DB3C0092CE67 /* PBXTextBookmark */;
-			D44B82D012D2DB3C0092CE67 = D44B82D012D2DB3C0092CE67 /* PBXTextBookmark */;
-			D44EB59C12DBBCCA00E3A4EB = D44EB59C12DBBCCA00E3A4EB /* PBXBookmark */;
-			D44EB82A12DD424F00E3A4EB = D44EB82A12DD424F00E3A4EB /* PlistBookmark */;
-			D44EB83D12DD44CE00E3A4EB = D44EB83D12DD44CE00E3A4EB /* PBXTextBookmark */;
-			D452930512D43BDC00B9F7B9 = D452930512D43BDC00B9F7B9 /* PBXTextBookmark */;
-			D452931512D43C6F00B9F7B9 = D452931512D43C6F00B9F7B9 /* PBXTextBookmark */;
-			D452931612D43C6F00B9F7B9 = D452931612D43C6F00B9F7B9 /* PBXTextBookmark */;
-			D452931812D43C6F00B9F7B9 = D452931812D43C6F00B9F7B9 /* PBXTextBookmark */;
-			D452931912D43C6F00B9F7B9 = D452931912D43C6F00B9F7B9 /* PBXTextBookmark */;
-			D452936012D43E3900B9F7B9 = D452936012D43E3900B9F7B9 /* PBXTextBookmark */;
-			D452936112D43E3900B9F7B9 = D452936112D43E3900B9F7B9 /* PBXTextBookmark */;
-			D452936212D43E3900B9F7B9 = D452936212D43E3900B9F7B9 /* PBXTextBookmark */;
-			D48EE776130F16DB004D5A4D = D48EE776130F16DB004D5A4D /* PBXTextBookmark */;
-			D48EE855130F3E2C004D5A4D = D48EE855130F3E2C004D5A4D /* PBXTextBookmark */;
-			D48EE857130F3E2C004D5A4D = D48EE857130F3E2C004D5A4D /* PBXTextBookmark */;
-			D48EE859130F3E2C004D5A4D = D48EE859130F3E2C004D5A4D /* PBXTextBookmark */;
-			D49C7AC6130E3D65000ADA72 = D49C7AC6130E3D65000ADA72 /* PBXBookmark */;
-			D49C7AC7130E3D65000ADA72 = D49C7AC7130E3D65000ADA72 /* PBXBookmark */;
-			D4A12610131369EC00FBE0C0 = D4A12610131369EC00FBE0C0 /* PBXTextBookmark */;
-			D4A1261A13136C1A00FBE0C0 = D4A1261A13136C1A00FBE0C0 /* PBXTextBookmark */;
-			D4A1262C1313722A00FBE0C0 = D4A1262C1313722A00FBE0C0 /* PBXTextBookmark */;
-			D4A1262D1313722A00FBE0C0 = D4A1262D1313722A00FBE0C0 /* PBXTextBookmark */;
-			D4A1262F1313722A00FBE0C0 = D4A1262F1313722A00FBE0C0 /* PBXTextBookmark */;
-			D4A126341313725000FBE0C0 = D4A126341313725000FBE0C0 /* PBXTextBookmark */;
-			D4A126351313725000FBE0C0 = D4A126351313725000FBE0C0 /* PBXTextBookmark */;
-			D4A1263B131372E700FBE0C0 = D4A1263B131372E700FBE0C0 /* PBXTextBookmark */;
-			D4A1263C131372E700FBE0C0 = D4A1263C131372E700FBE0C0 /* PBXTextBookmark */;
-			D4A1263E131372E700FBE0C0 = D4A1263E131372E700FBE0C0 /* PBXTextBookmark */;
-			D4B4E9B012D679D000A7D93A = D4B4E9B012D679D000A7D93A /* PBXTextBookmark */;
-			D4F8D25D12D2C50400036EA3 = D4F8D25D12D2C50400036EA3 /* PBXTextBookmark */;
+			D4162065131A188800813334 /* PBXTextBookmark */ = D4162065131A188800813334 /* PBXTextBookmark */;
+			D4162068131A188800813334 /* PBXTextBookmark */ = D4162068131A188800813334 /* PBXTextBookmark */;
+			D416207D131A198700813334 /* PBXTextBookmark */ = D416207D131A198700813334 /* PBXTextBookmark */;
+			D41620AA131A1ABA00813334 /* PBXTextBookmark */ = D41620AA131A1ABA00813334 /* PBXTextBookmark */;
+			D4162147131B522700813334 /* PBXBookmark */ = D4162147131B522700813334 /* PBXBookmark */;
+			D416214E131B54FC00813334 /* PBXTextBookmark */ = D416214E131B54FC00813334 /* PBXTextBookmark */;
+			D416214F131B54FC00813334 /* PBXTextBookmark */ = D416214F131B54FC00813334 /* PBXTextBookmark */;
+			D416216C131B56D600813334 /* PBXTextBookmark */ = D416216C131B56D600813334 /* PBXTextBookmark */;
+			D416216D131B56D600813334 /* PBXTextBookmark */ = D416216D131B56D600813334 /* PBXTextBookmark */;
+			D416216E131B56D600813334 /* PBXTextBookmark */ = D416216E131B56D600813334 /* PBXTextBookmark */;
+			D44326EF12E0EA5000F8CA7F /* PBXTextBookmark */ = D44326EF12E0EA5000F8CA7F /* PBXTextBookmark */;
+			D443270012E0EB4C00F8CA7F /* PBXTextBookmark */ = D443270012E0EB4C00F8CA7F /* PBXTextBookmark */;
+			D44B82C912D2DB3C0092CE67 /* PBXTextBookmark */ = D44B82C912D2DB3C0092CE67 /* PBXTextBookmark */;
+			D44B82CF12D2DB3C0092CE67 /* PBXTextBookmark */ = D44B82CF12D2DB3C0092CE67 /* PBXTextBookmark */;
+			D44B82D012D2DB3C0092CE67 /* PBXTextBookmark */ = D44B82D012D2DB3C0092CE67 /* PBXTextBookmark */;
+			D44EB59C12DBBCCA00E3A4EB /* PBXBookmark */ = D44EB59C12DBBCCA00E3A4EB /* PBXBookmark */;
+			D44EB82A12DD424F00E3A4EB /* PlistBookmark */ = D44EB82A12DD424F00E3A4EB /* PlistBookmark */;
+			D44EB83D12DD44CE00E3A4EB /* PBXTextBookmark */ = D44EB83D12DD44CE00E3A4EB /* PBXTextBookmark */;
+			D452930512D43BDC00B9F7B9 /* PBXTextBookmark */ = D452930512D43BDC00B9F7B9 /* PBXTextBookmark */;
+			D452931512D43C6F00B9F7B9 /* PBXTextBookmark */ = D452931512D43C6F00B9F7B9 /* PBXTextBookmark */;
+			D452931612D43C6F00B9F7B9 /* PBXTextBookmark */ = D452931612D43C6F00B9F7B9 /* PBXTextBookmark */;
+			D452931812D43C6F00B9F7B9 /* PBXTextBookmark */ = D452931812D43C6F00B9F7B9 /* PBXTextBookmark */;
+			D452931912D43C6F00B9F7B9 /* PBXTextBookmark */ = D452931912D43C6F00B9F7B9 /* PBXTextBookmark */;
+			D452936012D43E3900B9F7B9 /* PBXTextBookmark */ = D452936012D43E3900B9F7B9 /* PBXTextBookmark */;
+			D452936112D43E3900B9F7B9 /* PBXTextBookmark */ = D452936112D43E3900B9F7B9 /* PBXTextBookmark */;
+			D452936212D43E3900B9F7B9 /* PBXTextBookmark */ = D452936212D43E3900B9F7B9 /* PBXTextBookmark */;
+			D48EE855130F3E2C004D5A4D /* PBXTextBookmark */ = D48EE855130F3E2C004D5A4D /* PBXTextBookmark */;
+			D48EE857130F3E2C004D5A4D /* PBXTextBookmark */ = D48EE857130F3E2C004D5A4D /* PBXTextBookmark */;
+			D48EE859130F3E2C004D5A4D /* PBXTextBookmark */ = D48EE859130F3E2C004D5A4D /* PBXTextBookmark */;
+			D49C7AC7130E3D65000ADA72 /* PBXBookmark */ = D49C7AC7130E3D65000ADA72 /* PBXBookmark */;
+			D4A12610131369EC00FBE0C0 /* PBXTextBookmark */ = D4A12610131369EC00FBE0C0 /* PBXTextBookmark */;
+			D4B4E9B012D679D000A7D93A /* PBXTextBookmark */ = D4B4E9B012D679D000A7D93A /* PBXTextBookmark */;
+			D4F8D25D12D2C50400036EA3 /* PBXTextBookmark */ = D4F8D25D12D2C50400036EA3 /* PBXTextBookmark */;
 		};
 		sourceControlManager = D4F8D21F12D2987600036EA3 /* Source Control */;
 		userBuildSettings = {
@@ -121,69 +113,99 @@
 			D4F8D20E12D2987200036EA3 /* redditpaper */,
 		);
 	};
-	D41620041319ABAF00813334 /* PBXTextBookmark */ = {
+	D4162065131A188800813334 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 43";
+		fRef = 256AC3D80F4B6AC300CF3369 /* redditpaperAppDelegate.h */;
+		name = "redditpaperAppDelegate.h: 18";
 		rLen = 0;
-		rLoc = 1430;
+		rLoc = 413;
 		rType = 0;
-		vrLen = 1654;
-		vrLoc = 2459;
+		vrLen = 1680;
+		vrLoc = 0;
 	};
-	D41620141319AC1A00813334 /* PBXTextBookmark */ = {
+	D4162068131A188800813334 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44EB58B12DBBA9C00E3A4EB /* Preferences.h */;
+		name = "Preferences.h: 38";
+		rLen = 0;
+		rLoc = 1420;
+		rType = 0;
+		vrLen = 1781;
+		vrLoc = 0;
+	};
+	D416207D131A198700813334 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44B82C512D2DB2D0092CE67 /* DataManager.h */;
+		name = "DataManager.h: 42";
+		rLen = 0;
+		rLoc = 1116;
+		rType = 0;
+		vrLen = 1273;
+		vrLoc = 0;
+	};
+	D41620AA131A1ABA00813334 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D4B4E9AD12D6794500A7D93A /* WallpaperController.h */;
+		name = "WallpaperController.h: 22";
+		rLen = 0;
+		rLoc = 490;
+		rType = 0;
+		vrLen = 899;
+		vrLoc = 0;
+	};
+	D4162147131B522700813334 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D443277C12E116F200F8CA7F /* spinner.gif */;
+	};
+	D416214E131B54FC00813334 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		rLen = 5;
-		rLoc = 5851;
+		name = "redditpaperAppDelegate.m: 117";
+		rLen = 0;
+		rLoc = 5098;
 		rType = 0;
+		vrLen = 2211;
+		vrLoc = 4619;
 	};
-	D41620151319AC1A00813334 /* PBXTextBookmark */ = {
+	D416214F131B54FC00813334 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 200";
-		rLen = 5;
-		rLoc = 5851;
+		fRef = D4B4E9AE12D6794500A7D93A /* WallpaperController.m */;
+		name = "WallpaperController.m: 97";
+		rLen = 0;
+		rLoc = 2984;
 		rType = 0;
-		vrLen = 496;
-		vrLoc = 5627;
+		vrLen = 1642;
+		vrLoc = 148;
 	};
-	D41620181319AC2700813334 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 200";
-		rLen = 5;
-		rLoc = 5851;
-		rType = 0;
-		vrLen = 496;
-		vrLoc = 5627;
-	};
-	D41620191319AC2A00813334 /* PBXTextBookmark */ = {
+	D416216C131B56D600813334 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = D44EB58C12DBBA9C00E3A4EB /* Preferences.m */;
-		name = "Preferences.m: 67";
+		name = "Preferences.m: 41";
 		rLen = 0;
-		rLoc = 1881;
+		rLoc = 874;
 		rType = 0;
-		vrLen = 1952;
-		vrLoc = 1218;
+		vrLen = 2249;
+		vrLoc = 4905;
 	};
-	D416201A1319AC2A00813334 /* PBXTextBookmark */ = {
+	D416216D131B56D600813334 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		rLen = 5;
-		rLoc = 5655;
-		rType = 0;
-	};
-	D416201B1319AC2A00813334 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 203";
+		fRef = D44B82C612D2DB2D0092CE67 /* DataManager.m */;
+		name = "DataManager.m: 205";
 		rLen = 0;
-		rLoc = 5943;
+		rLoc = 6688;
 		rType = 0;
-		vrLen = 1722;
-		vrLoc = 5272;
+		vrLen = 1931;
+		vrLoc = 5121;
+	};
+	D416216E131B56D600813334 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D44B82C612D2DB2D0092CE67 /* DataManager.m */;
+		name = "DataManager.m: 210";
+		rLen = 0;
+		rLoc = 6887;
+		rType = 0;
+		vrLen = 1860;
+		vrLoc = 6238;
 	};
 	D44326EF12E0EA5000F8CA7F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -200,7 +222,7 @@
 		fRef = D452947E12D52B3A00B9F7B9 /* Reachability.m */;
 		name = "Reachability.m: 93";
 		rLen = 0;
-		rLoc = 4395;
+		rLoc = 2875;
 		rType = 0;
 		vrLen = 2392;
 		vrLoc = 2636;
@@ -278,15 +300,15 @@
 	D44B82C512D2DB2D0092CE67 /* DataManager.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {891, 895}}";
-			sepNavSelRange = "{1303, 0}";
-			sepNavVisRange = "{0, 1310}";
+			sepNavSelRange = "{1116, 0}";
+			sepNavVisRange = "{0, 1273}";
 		};
 	};
 	D44B82C612D2DB2D0092CE67 /* DataManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {971, 3540}}";
-			sepNavSelRange = "{5645, 0}";
-			sepNavVisRange = "{4848, 1923}";
+			sepNavIntBoundsRect = "{{0, 0}, {971, 3690}}";
+			sepNavSelRange = "{6887, 0}";
+			sepNavVisRange = "{6238, 1860}";
 		};
 	};
 	D44B82C912D2DB3C0092CE67 /* PBXTextBookmark */ = {
@@ -328,16 +350,16 @@
 	};
 	D44EB58B12DBBA9C00E3A4EB /* Preferences.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 895}}";
-			sepNavSelRange = "{465, 0}";
-			sepNavVisRange = "{0, 1454}";
+			sepNavIntBoundsRect = "{{0, 0}, {965, 825}}";
+			sepNavSelRange = "{175, 30}";
+			sepNavVisRange = "{3, 624}";
 		};
 	};
 	D44EB58C12DBBA9C00E3A4EB /* Preferences.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 2685}}";
-			sepNavSelRange = "{1881, 0}";
-			sepNavVisRange = "{1218, 1952}";
+			sepNavIntBoundsRect = "{{0, 0}, {965, 2775}}";
+			sepNavSelRange = "{2888, 30}";
+			sepNavVisRange = "{2747, 735}";
 		};
 	};
 	D44EB59C12DBBCCA00E3A4EB /* PBXBookmark */ = {
@@ -467,30 +489,19 @@
 		};
 	};
 	D48EE701130F06A0004D5A4D /* ImageLoader.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ImageLoader.h;
+		path = /Users/rob/code/rp/redditpaper/ImageLoader.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {891, 895}}";
 			sepNavSelRange = "{460, 0}";
 			sepNavVisRange = "{0, 805}";
 		};
 	};
-	D48EE702130F06A0004D5A4D /* ImageLoader.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {965, 1020}}";
-			sepNavSelRange = "{1509, 0}";
-			sepNavVisRange = "{1157, 379}";
-		};
-	};
-	D48EE776130F16DB004D5A4D /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D80F4B6AC300CF3369 /* redditpaperAppDelegate.h */;
-		name = "redditpaperAppDelegate.h: 56";
-		rLen = 0;
-		rLoc = 1637;
-		rType = 0;
-		vrLen = 1644;
-		vrLoc = 0;
-	};
-	D48EE851130F3E21004D5A4D /* DataManager.m:223 */ = {
+	D48EE851130F3E21004D5A4D /* DataManager.m:239 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -502,9 +513,9 @@
 		functionName = "-pathOfLoadedWallpaperIndex:delegate:";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 223;
+		lineNumber = 239;
 		location = redditpaper;
-		modificationTime = 319766857.963354;
+		modificationTime = 320556397.822047;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -559,10 +570,6 @@
 		path = "/Users/rob/Downloads/c-anonymous.c";
 		sourceTree = "<absolute>";
 	};
-	D49C7AC6130E3D65000ADA72 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = D443277C12E116F200F8CA7F /* spinner.gif */;
-	};
 	D49C7AC7130E3D65000ADA72 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = D49C7AB8130E3B93000ADA72 /* load_0.png */;
@@ -577,108 +584,18 @@
 		vrLen = 805;
 		vrLoc = 0;
 	};
-	D4A1261A13136C1A00FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D48EE702130F06A0004D5A4D /* ImageLoader.m */;
-		name = "ImageLoader.m: 36";
-		rLen = 0;
-		rLoc = 851;
-		rType = 0;
-		vrLen = 1489;
-		vrLoc = 0;
-	};
-	D4A1262C1313722A00FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D44EB58B12DBBA9C00E3A4EB /* Preferences.h */;
-		name = "Preferences.h: 16";
-		rLen = 0;
-		rLoc = 465;
-		rType = 0;
-		vrLen = 1454;
-		vrLoc = 0;
-	};
-	D4A1262D1313722A00FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D44EB58C12DBBA9C00E3A4EB /* Preferences.m */;
-		name = "Preferences.m: 77";
-		rLen = 0;
-		rLoc = 2197;
-		rType = 0;
-		vrLen = 1963;
-		vrLoc = 1408;
-	};
-	D4A1262F1313722A00FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D4B4E9AD12D6794500A7D93A /* WallpaperController.h */;
-		name = "WallpaperController.h: 35";
-		rLen = 0;
-		rLoc = 937;
-		rType = 0;
-		vrLen = 945;
-		vrLoc = 0;
-	};
-	D4A126341313725000FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D4B4E9AE12D6794500A7D93A /* WallpaperController.m */;
-		name = "WallpaperController.m: 43";
-		rLen = 0;
-		rLoc = 939;
-		rType = 0;
-		vrLen = 1395;
-		vrLoc = 0;
-	};
-	D4A126351313725000FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D44B82C512D2DB2D0092CE67 /* DataManager.h */;
-		name = "DataManager.h: 48";
-		rLen = 0;
-		rLoc = 1303;
-		rType = 0;
-		vrLen = 1310;
-		vrLoc = 0;
-	};
-	D4A1263B131372E700FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = D44B82C612D2DB2D0092CE67 /* DataManager.m */;
-		name = "DataManager.m: 195";
-		rLen = 0;
-		rLoc = 5645;
-		rType = 0;
-		vrLen = 1923;
-		vrLoc = 4848;
-	};
-	D4A1263C131372E700FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 96";
-		rLen = 0;
-		rLoc = 2947;
-		rType = 0;
-		vrLen = 1654;
-		vrLoc = 2043;
-	};
-	D4A1263E131372E700FBE0C0 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* redditpaperAppDelegate.m */;
-		name = "redditpaperAppDelegate.m: 43";
-		rLen = 0;
-		rLoc = 1430;
-		rType = 0;
-		vrLen = 1704;
-		vrLoc = 2461;
-	};
 	D4B4E9AD12D6794500A7D93A /* WallpaperController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {891, 895}}";
-			sepNavSelRange = "{937, 0}";
-			sepNavVisRange = "{0, 945}";
+			sepNavSelRange = "{490, 0}";
+			sepNavVisRange = "{0, 899}";
 		};
 	};
 	D4B4E9AE12D6794500A7D93A /* WallpaperController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {891, 2085}}";
-			sepNavSelRange = "{939, 0}";
-			sepNavVisRange = "{0, 1395}";
+			sepNavIntBoundsRect = "{{0, 0}, {965, 2100}}";
+			sepNavSelRange = "{2984, 0}";
+			sepNavVisRange = "{2469, 859}";
 		};
 	};
 	D4B4E9B012D679D000A7D93A /* PBXTextBookmark */ = {

@@ -10,18 +10,16 @@
 
 #import <Cocoa/Cocoa.h>
 #import "DataManager.h"
-#import "ImageLoader.h"
 
-@class redditpaperAppDelegate;
-@interface WallpaperController : NSObject <ImageLoaderDelegate> {
-	DataManager *_data;
-	NSUInteger curIndex;
-	
-	redditpaperAppDelegate *delegate;
+#define RPSkipNSFWWallpaperArg @"skipnsfw"
+#define RPMinWidthWallpaperArg @"minwidth"
+
+@interface WallpaperController : NSObject{
+    DataManager *_data;
+    NSUInteger curIndex;
 }
 
 @property (nonatomic) NSUInteger curIndex;
-@property (nonatomic, retain) redditpaperAppDelegate *delegate;
 
 + (WallpaperController *)getWallpaperController;
 
@@ -29,9 +27,9 @@
 - (BOOL)_setWallpaperToPath:(NSString *)path;
 - (void)_setWallpaperToIndex:(NSUInteger)index;
 
-- (void)setNextWallpaperSkipNSFW:(BOOL)skip;
-- (void)setPreviousWallpaperSkipNSFW:(BOOL)skip;
-- (void)setRandomWallpaperSkipNSFW:(BOOL)skip;
-- (void)setInitialWallpaperSkipNSFW:(BOOL)skip;
+- (void)setNextWallpaperWithArgs:(NSDictionary *)args;
+- (void)setPreviousWallpaperWithArgs:(NSDictionary *)args;
+- (void)setRandomWallpaperWithArgs:(NSDictionary *)args;
+- (void)setInitialWallpaperWithArgs:(NSDictionary *)args;
 
 @end

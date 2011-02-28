@@ -25,7 +25,6 @@
 		D44EB59112DBBBA900E3A4EB /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44EB59012DBBBA900E3A4EB /* Preferences.xib */; };
 		D452947F12D52B3A00B9F7B9 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D452947E12D52B3A00B9F7B9 /* Reachability.m */; };
 		D452949112D52BB900B9F7B9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D452949012D52BB900B9F7B9 /* SystemConfiguration.framework */; };
-		D48EE703130F06A0004D5A4D /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = D48EE702130F06A0004D5A4D /* ImageLoader.m */; };
 		D49C7ABC130E3B93000ADA72 /* load_0.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7AB8130E3B93000ADA72 /* load_0.png */; };
 		D49C7ABD130E3B93000ADA72 /* load_1.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7AB9130E3B93000ADA72 /* load_1.png */; };
 		D49C7ABE130E3B93000ADA72 /* load_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D49C7ABA130E3B93000ADA72 /* load_2.png */; };
@@ -68,8 +67,6 @@
 		D452947D12D52B3A00B9F7B9 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D452947E12D52B3A00B9F7B9 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D452949012D52BB900B9F7B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		D48EE701130F06A0004D5A4D /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
-		D48EE702130F06A0004D5A4D /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
 		D49C7AB8130E3B93000ADA72 /* load_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_0.png; sourceTree = "<group>"; };
 		D49C7AB9130E3B93000ADA72 /* load_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_1.png; sourceTree = "<group>"; };
 		D49C7ABA130E3B93000ADA72 /* load_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = load_2.png; sourceTree = "<group>"; };
@@ -103,8 +100,6 @@
 				D44EB58B12DBBA9C00E3A4EB /* Preferences.h */,
 				D44EB58C12DBBA9C00E3A4EB /* Preferences.m */,
 				D44EB59012DBBBA900E3A4EB /* Preferences.xib */,
-				D48EE701130F06A0004D5A4D /* ImageLoader.h */,
-				D48EE702130F06A0004D5A4D /* ImageLoader.m */,
 				D4B4E9AC12D6792C00A7D93A /* Utilities */,
 			);
 			name = Classes;
@@ -309,7 +304,6 @@
 				D452947F12D52B3A00B9F7B9 /* Reachability.m in Sources */,
 				D4B4E9AF12D6794500A7D93A /* WallpaperController.m in Sources */,
 				D44EB58D12DBBA9C00E3A4EB /* Preferences.m in Sources */,
-				D48EE703130F06A0004D5A4D /* ImageLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,15 +14,19 @@
 #define RPRandomOrderDefaultsKey @"random"
 #define RPOpenAtLoginDefaultsKey @"login"
 #define RPSkipNSFWDefaultsKey @"nsfwignore"
+#define RPMinWidthEnabledDefaultsKey @"minwidthenabled"
+#define RPMinWidthDefaultsKey @"minwidth"
 
 @interface Preferences : NSWindowController<NSTextDelegate> {
-	IBOutlet NSButton *autoChangeCheck;
-	IBOutlet NSButton *randomCheck;
-	IBOutlet NSButton *openAtLoginCheck;
-	IBOutlet NSTextFieldCell *autoChangePeriod;
-	IBOutlet NSPopUpButton *autoChangeType;
-	
-	NSUserDefaults *defaults;
+    IBOutlet NSButton *autoChangeCheck;
+    IBOutlet NSButton *randomCheck;
+    IBOutlet NSButton *openAtLoginCheck;
+    IBOutlet NSTextFieldCell *autoChangePeriod;
+    IBOutlet NSPopUpButton *autoChangeType;
+    IBOutlet NSButton *minWidthCheck;
+    IBOutlet NSTextFieldCell *minWidth;
+    
+    NSUserDefaults *defaults;
 }
 
 @property (nonatomic, retain) IBOutlet NSButton *autoChangeCheck;
@@ -30,6 +34,8 @@
 @property (nonatomic, retain) IBOutlet NSTextFieldCell *autoChangePeriod;
 @property (nonatomic, retain) IBOutlet NSPopUpButton *autoChangeType;
 @property (nonatomic, retain) IBOutlet NSButton *openAtLoginCheck;
+@property (nonatomic, retain) IBOutlet NSTextFieldCell *minWidth;
+@property (nonatomic, retain) IBOutlet NSButton *minWidthCheck;
 
 @property (nonatomic, assign) NSUserDefaults *defaults;
 

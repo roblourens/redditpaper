@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>5</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>redditpaperAppDelegate.m</string>
+								<string>DataManager.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +323,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>redditpaperAppDelegate.m</string>
+										<string>DataManager.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D416201B1319AC2A00813334</string>
+										<string>D416216E131B56D600813334</string>
 										<key>history</key>
 										<array>
 											<string>D4F8D25D12D2C50400036EA3</string>
@@ -348,21 +348,20 @@
 											<string>D44EB83D12DD44CE00E3A4EB</string>
 											<string>D44326EF12E0EA5000F8CA7F</string>
 											<string>D443270012E0EB4C00F8CA7F</string>
-											<string>D49C7AC6130E3D65000ADA72</string>
 											<string>D49C7AC7130E3D65000ADA72</string>
-											<string>D48EE776130F16DB004D5A4D</string>
 											<string>D48EE855130F3E2C004D5A4D</string>
 											<string>D48EE857130F3E2C004D5A4D</string>
 											<string>D48EE859130F3E2C004D5A4D</string>
 											<string>D4A12610131369EC00FBE0C0</string>
-											<string>D4A1261A13136C1A00FBE0C0</string>
-											<string>D4A1262C1313722A00FBE0C0</string>
-											<string>D4A1262F1313722A00FBE0C0</string>
-											<string>D4A126341313725000FBE0C0</string>
-											<string>D4A126351313725000FBE0C0</string>
-											<string>D4A1263B131372E700FBE0C0</string>
-											<string>D41620191319AC2A00813334</string>
-											<string>D416201A1319AC2A00813334</string>
+											<string>D4162065131A188800813334</string>
+											<string>D4162068131A188800813334</string>
+											<string>D416207D131A198700813334</string>
+											<string>D41620AA131A1ABA00813334</string>
+											<string>D4162147131B522700813334</string>
+											<string>D416214E131B54FC00813334</string>
+											<string>D416214F131B54FC00813334</string>
+											<string>D416216C131B56D600813334</string>
+											<string>D416216D131B56D600813334</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -576,12 +575,11 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>D416200F1319ABAF00813334</string>
 		<string>D41620101319ABAF00813334</string>
 		<string>D41620111319ABAF00813334</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D4F8D21D12D2987600036EA3</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/rob/code/rp/redditpaper/redditpaper.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -606,7 +604,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>redditpaperAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -623,6 +621,8 @@
 							<string>395pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -749,11 +749,11 @@
 									<key>DebugVariablesTableConfiguration</key>
 									<array>
 										<string>Name</string>
-										<real>120</real>
+										<real>175</real>
 										<string>Value</string>
 										<real>96</real>
 										<string>Summary</string>
-										<real>356</real>
+										<real>301</real>
 									</array>
 									<key>Frame</key>
 									<string>{{512, 0}, {597, 414}}</string>
@@ -822,7 +822,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>redditpaperAppDelegate.m</string>
+										<string>Preferences.m</string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -956,7 +956,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

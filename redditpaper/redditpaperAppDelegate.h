@@ -12,18 +12,18 @@
 
 @class WallpaperController;
 @interface redditpaperAppDelegate : NSObject <NSApplicationDelegate> {
-	WallpaperController *wc;
-	NSTimer *curTimer;
-	NSUserDefaults *defaults;
-	NSDate *pauseStartDate;
-	NSDate *prePauseFireDate;
-	BOOL reachable;
-	BOOL timerWaiting;
-	BOOL activityIndicatorVisible;
-	NSStatusItem *theItem;
-	
-	IBOutlet NSMenu *theMenu;
-	IBOutlet NSMenuItem *domainMenuItem, *pauseMenuItem;
+    WallpaperController *wc;
+    NSTimer *curTimer;
+    NSUserDefaults *defaults;
+    NSDate *pauseStartDate;
+    NSDate *prePauseFireDate;
+    BOOL reachable;
+    BOOL timerWaiting;
+    BOOL activityIndicatorVisible;
+    NSStatusItem *theItem;
+    
+    IBOutlet NSMenu *theMenu;
+    IBOutlet NSMenuItem *domainMenuItem, *pauseMenuItem;
 }
 
 @property (assign) IBOutlet NSMenu *theMenu;

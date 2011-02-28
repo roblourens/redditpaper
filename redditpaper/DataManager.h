@@ -10,23 +10,19 @@
 #import "JSON.h"
 #import "Reachability.h"
 #import "redditpaperAppDelegate.h"
-#import "ImageLoader.h"
 
 #define kDataLoadedNotification @"DataLoadedNotification"
 
 @interface DataManager : NSObject {
-	NSFileManager *fileManager;
-	NSString *libPath;
-	Reachability *reach;
-	BOOL shouldUpdate;
-	NetworkStatus status;
-	BOOL hasData;
-	redditpaperAppDelegate *appDelegate;
-	
-	// data loading
-	ImageLoader *curImgLoader;
+    NSFileManager *fileManager;
+    NSString *libPath;
+    Reachability *reach;
+    BOOL shouldUpdate;
+    NetworkStatus status;
+    BOOL hasData;
+    redditpaperAppDelegate *appDelegate;
 
-	NSArray *imageListings;
+    NSArray *imageListings;
 }
 
 @property (nonatomic, retain) NSArray *imageListings;
@@ -43,8 +39,9 @@
 - (BOOL)serverReachable;
 - (void)loadData:(NSTimer *)theTimer;
 - (void)removeOldWallpapers;
-- (void)pathOfLoadedWallpaperIndex:(NSUInteger)index delegate:(id<ImageLoaderDelegate>)delegate;
+- (NSString *)pathOfLoadedWallpaperIndex:(NSUInteger)index;
 - (void)cleanUp;
 - (BOOL)nsfwForIndex:(NSUInteger)index;
+- (NSUInteger)widthForIndex:(NSUInteger)index;
 
 @end

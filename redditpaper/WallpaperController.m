@@ -75,6 +75,7 @@ static WallpaperController *sharedInstance = nil;
         return NO;
     }
     
+    NSLog(@"Setting wallpaper to path: %@", path);
     NSURL *imageURL = [NSURL fileURLWithPath:path];
     NSError *error = nil;
     NSScreen *curScreen = [NSScreen mainScreen];
@@ -89,11 +90,11 @@ static WallpaperController *sharedInstance = nil;
 
 - (void)setNextWallpaperWithArgs:(NSDictionary *)args {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    BOOL skip = [[args valueForKey:RPSkipNSFWWallpaperArg] boolValue];
+    BOOL skipNSFW = [[args valueForKey:RPSkipNSFWWallpaperArg] boolValue];
     NSUInteger minWidth = [[args valueForKey:RPMinWidthWallpaperArg] intValue];
     
     NSUInteger index = (curIndex + 1) % [_data.imageListings count];
-    while (([_data nsfwForIndex:index] && skip) || [_data widthForIndex:index] < minWidth) {
+    while (([_data nsfwForIndex:index] && skipNSFW) || [_data widthForIndex:index] < minWidth) {
         index = (index + 1) % [_data.imageListings count];
     }
     [self _setWallpaperToIndex:index];
@@ -102,7 +103,7 @@ static WallpaperController *sharedInstance = nil;
 
 - (void)setPreviousWallpaperWithArgs:(NSDictionary *)args {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    BOOL skip = [[args valueForKey:RPSkipNSFWWallpaperArg] boolValue];
+    BOOL skipNSFW = [[args valueForKey:RPSkipNSFWWallpaperArg] boolValue];
     NSUInteger minWidth = [[args valueForKey:RPMinWidthWallpaperArg] intValue];
     
     NSUInteger index;
@@ -111,7 +112,7 @@ static WallpaperController *sharedInstance = nil;
     else
         index = curIndex - 1;
     
-    while (([_data nsfwForIndex:index] && skip) || [_data widthForIndex:index] < minWidth)
+    while (([_data nsfwForIndex:index] && skipNSFW) || [_data widthForIndex:index] < minWidth)
         if (curIndex == 0)
             index = [_data.imageListings count] - 1;
         else

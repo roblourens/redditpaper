@@ -95,7 +95,6 @@ static Preferences *prefs = nil;
         default:
             break;
     }
-    NSLog(@"mw enabled: %d", [defaults boolForKey:RPMinWidthEnabledDefaultsKey]);
     
     [defaults synchronize];
 }

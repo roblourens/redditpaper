@@ -179,13 +179,13 @@
 
 - (IBAction)previousClicked:(id)sender {
     NSString *minwidth = [defaults boolForKey:RPMinWidthEnabledDefaultsKey] ?
-    [defaults stringForKey:RPMinWidthDefaultsKey] : @"0";
+                                                    [defaults stringForKey:RPMinWidthDefaultsKey] : @"0";
     [NSThread detachNewThreadSelector:@selector(setPreviousWallpaperWithArgs:)
                              toTarget:wc
                            withObject:[NSDictionary dictionaryWithObjectsAndKeys:
                                        [NSNumber numberWithBool:[defaults boolForKey:RPSkipNSFWDefaultsKey]],
                                        RPSkipNSFWWallpaperArg,
-                                       @"0", RPMinWidthWallpaperArg, nil]];
+                                       minwidth, RPMinWidthWallpaperArg, nil]];
     [self _resetTimerIfNeeded];
     [self _setDomainText];
 }

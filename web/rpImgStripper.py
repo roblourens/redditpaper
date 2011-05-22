@@ -35,7 +35,7 @@ def getDictFromListing(listing):
 
 
 loginURL = 'http://www.reddit.com/api/login'
-wallpapersURL = 'http://www.reddit.com/r/wallpapers/.json?count=%d&after=%s'
+wallpapersURL = 'http://www.reddit.com/r/wallpapers+wallpaper/.json?count=%d&after=%s'
 outputPath = expanduser('~/html/rp/images.json')
 pages = 4
 pagesize = 25

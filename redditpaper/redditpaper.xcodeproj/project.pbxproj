@@ -13,6 +13,7 @@
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		D443277D12E116F200F8CA7F /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = D443277C12E116F200F8CA7F /* spinner.gif */; };
+		D446C3DD1388B58E0001CB6A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = D446C3DC1388B58E0001CB6A /* icon.icns */; };
 		D44B823E12D2D5C10092CE67 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B512D2D5C00092CE67 /* NSObject+SBJSON.m */; };
 		D44B823F12D2D5C10092CE67 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B712D2D5C00092CE67 /* NSString+SBJSON.m */; };
 		D44B824012D2D5C10092CE67 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D44B81B912D2D5C00092CE67 /* SBJsonBase.m */; };
@@ -46,6 +47,7 @@
 		8D1107310486CEB800E47090 /* redditpaper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "redditpaper-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* redditpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redditpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D443277C12E116F200F8CA7F /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		D446C3DC1388B58E0001CB6A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		D44B81B312D2D5C00092CE67 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		D44B81B412D2D5C00092CE67 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		D44B81B512D2D5C00092CE67 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D446C3DC1388B58E0001CB6A /* icon.icns */,
 				D49C7AC1130E3B95000ADA72 /* loading */,
 				D443277C12E116F200F8CA7F /* spinner.gif */,
 				D44EB54812DAB05100E3A4EB /* sbicon.png */,
@@ -283,6 +286,7 @@
 				D49C7ABD130E3B93000ADA72 /* load_1.png in Resources */,
 				D49C7ABE130E3B93000ADA72 /* load_2.png in Resources */,
 				D49C7ABF130E3B93000ADA72 /* load_3.png in Resources */,
+				D446C3DD1388B58E0001CB6A /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
